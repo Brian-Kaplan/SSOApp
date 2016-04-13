@@ -33,6 +33,7 @@ public class MainActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		Button loginButton = (Button) findViewById(R.id.btnLogin);//login button to go to web view
+		loginButton.setEnabled(false);
 		loginButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
