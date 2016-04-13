@@ -11,6 +11,7 @@ This application was developed based on the IDP-Proxy-App in the [SDK] (https://
  Installation
   
     - Simply clone the repo and open it in Android Studio
+    - This applciation was installed and tested on a Nexus 5 Emulator Target API 22
     - Click the settings on top right and set the hostname to the ip of your server and the port to 9443
     
     - The SDK does not need to be installed with this application
