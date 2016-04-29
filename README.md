@@ -15,4 +15,11 @@ This application was developed based on the IDP-Proxy-App in the [SDK] (https://
     - Click the settings on top right and set the hostname to the ip of your server and the port to 9443
     
     - The SDK does not need to be installed with this application
-    - If the Client ID and Client Secret are changed within the Servers Service Providers they must be changed in the OAuthConstants class
+    
+    - Create a Service Provider in WSO2 API Manager
+      - Run the server and go to https://localhost:9443/carbon 
+      - On the left sidebar go to Service Providers -> Add
+      - Set the name to IdentitiyProxyApp
+      - Once Registered to go the list and select edit
+      - Go to Inbound Authentication Configuration -> OAuth/OpenID Connect Configuration -> Configure
+      - Check all of the boxes and set the callback to whatever it is in OAuthConstants.java in the App
